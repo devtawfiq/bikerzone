@@ -1,0 +1,16 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.bike-primary {
+	background: #E76F51 !important;
+}
+.bg-main{
+    background: rgba(231, 111, 81, 0.10) !important;
+}
+.custom-menu li a{
+    font-size: 16px;
+    font-weight: 500;
+}
+.custom-menu li a:hover {
+	background: transparent;
+}
