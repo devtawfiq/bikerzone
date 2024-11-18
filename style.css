@@ -14,3 +14,27 @@
 .custom-menu li a:hover {
 	background: transparent;
 }
+/* title-box */
+.title-box h3{
+    position: relative;
+}
+.title-box h3::after {
+	content: '';
+	position: absolute;
+	bottom: -9px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #E76F51;
+	width: 4%;
+	height: 3px;
+}
+.cusbtn {
+	border-color: #E76F51;
+	color: #E76F51 !important;
+}
+.cusbtn:hover{
+    border-color: #E76F51 !important;
+    background: #E76F51 !important;
+    color: white !important;
+}
